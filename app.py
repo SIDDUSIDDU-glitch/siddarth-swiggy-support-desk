@@ -84,9 +84,11 @@ class SupportDeskServer(BaseHTTPRequestHandler):
     def do_HEAD(self):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
-        if path in ["/", "/index.html", "/api/download-excel", "/api/download-csv", "/api/metrics", "/api/benchmark", "/api/clauses", "/api/v0_log"]:
+        if path in ["/", "/index.html", "/api/download-excel", "/api/download-csv", "/api/download-markdown", "/api/metrics", "/api/benchmark", "/api/clauses", "/api/v0_log"]:
             self.send_response(200)
-            if "download" in path:
+            if "download-markdown" in path:
+                self.send_header("Content-Type", "text/markdown; charset=utf-8")
+            elif "download" in path:
                 self.send_header("Content-Type", "text/csv; charset=utf-8")
             else:
                 self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -102,6 +104,19 @@ class SupportDeskServer(BaseHTTPRequestHandler):
         try:
             if path == "/" or path == "/index.html":
                 self._serve_file("static/index.html", "text/html; charset=utf-8")
+            elif path in ["/api/download-markdown", "/api/report-md"]:
+                report_path = "Swiggy_Support_Desk_AI_Knowledge_Assistant_Pilot_Report.md"
+                if os.path.exists(report_path):
+                    with open(report_path, "rb") as rf:
+                        md_content = rf.read()
+                    self.send_response(200)
+                    self.send_header("Content-Type", "text/markdown; charset=utf-8")
+                    self.send_header("Content-Disposition", 'attachment; filename="Siddarth_Swiggy_Support_Desk_Pilot_Report.md"')
+                    self.send_header("Content-Length", str(len(md_content)))
+                    self.end_headers()
+                    self.wfile.write(md_content)
+                else:
+                    self.send_error(404, "Report file not found")
             elif path in ["/api/download-excel", "/api/download-csv", "/api/export-logs"]:
                 csv_content = generate_export_csv().encode("utf-8")
                 self.send_response(200)
@@ -201,7 +216,16 @@ def run(port=PORT):
         print(f"🚀 Siddarth Swiggy Support Desk AI Server Running on http://localhost:{port}")
         print("💡 Open your browser at http://localhost:8000 to interact with the UI")
         print("=" * 70)
-        httpd.serve_forever()
+        while True:
+            try:
+                httpd.serve_forever()
+            except (ConnectionResetError, BrokenPipeError):
+                continue
+            except KeyboardInterrupt:
+                break
+            except Exception as e:
+                sys.stderr.write(f"Server loop error: {e}\n")
+                continue
     except OSError as e:
         if port < 8010:
             print(f"Port {port} in use, trying port {port + 1}...")
