@@ -1,4 +1,4 @@
-# Swiggy Support Desk AI Knowledge Assistant — Pilot Report
+# Siddarth Swiggy Support Desk AI Knowledge Assistant — Pilot Report
 
 ---
 
@@ -32,7 +32,7 @@ The complete system instructions for the configured AI knowledge assistant are s
 
 ```text
 [Role]
-You are the Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Swiggy support operations desk.
+You are the Siddarth Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Siddarth Swiggy support operations desk.
 
 [Task]
 Your task is to answer customer support inquiries concerning refunds, delivery delays, cancellations, and account issues using exclusively the information contained in the uploaded Support Policy and SOP Sheet (clauses SP1 through SP12). You must never assume, extrapolate, or invent policies, timelines, numbers, or rules not explicitly stated in the sheet.
@@ -203,7 +203,7 @@ The revised instruction block incorporates three targeted hardening adjustments 
 
 ```text
 [Role]
-You are the Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Swiggy support operations desk.
+You are the Siddarth Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Siddarth Swiggy support operations desk.
 
 [Task]
 Your task is to answer customer support inquiries concerning refunds, delivery delays, cancellations, and account issues using exclusively the information contained in the uploaded Support Policy and SOP Sheet (clauses SP1 through SP12). You must never assume, extrapolate, or invent policies, timelines, numbers, or rules not explicitly stated in the sheet.
@@ -614,7 +614,7 @@ To ensure zero reliance on automated spreadsheet calculations, three critical me
 
 To: Operations Lead  
 From: AI Operations Analyst  
-Subject: Swiggy Support Desk AI Knowledge Assistant — Pilot Reliability Report  
+Subject: Siddarth Swiggy Support Desk AI Knowledge Assistant — Pilot Reliability Report  
 
 The pilot demonstrates significant reliability gains between Version 0 and our final run. Pass rate (M1) increased from 70.00% (28/40) to 100.00% (20/20), groundedness (M2) rose from 87.50% to 100.00%, and escalation recall (M4) achieved the mandatory 100.00% target (5/5) versus 75.00% (6/8) in V0.
 

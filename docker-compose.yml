@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  swiggy-support-desk:
+  siddarth-swiggy-support-desk:
     build: .
-    container_name: swiggy-ai-support-desk
+    container_name: siddarth-swiggy-ai-support-desk
     ports:
       - "8000:8000"
     environment:

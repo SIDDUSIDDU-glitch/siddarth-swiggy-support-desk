@@ -1,5 +1,5 @@
 """
-Grounded AI Assistant Implementation for Swiggy Support Desk.
+Grounded AI Assistant Implementation for Siddarth Swiggy Support Desk.
 Supports both live LLM calls (Gemini API) and an autonomous grounded deterministic engine.
 """
 
@@ -13,7 +13,7 @@ from .policy_engine import PolicyEngine
 from .guardrails import GuardrailValidator
 
 SYSTEM_INSTRUCTION = """[Role]
-You are the Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Swiggy support operations desk.
+You are the Siddarth Swiggy Support Desk AI Knowledge Assistant, a specialized, grounded customer support assistant for the fictional Siddarth Swiggy support operations desk.
 
 [Task]
 Your task is to answer customer support inquiries concerning refunds, delivery delays, cancellations, and account issues using exclusively the information contained in the uploaded Support Policy and SOP Sheet (clauses SP1 through SP12). You must never assume, extrapolate, or invent policies, timelines, numbers, or rules not explicitly stated in the sheet.

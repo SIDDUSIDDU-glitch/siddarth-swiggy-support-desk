@@ -1,7 +1,7 @@
-# Swiggy Support Desk AI Knowledge Assistant — Technical Architecture
+# Siddarth Swiggy Support Desk AI Knowledge Assistant — Technical Architecture
 
 ## 1. Architecture Summary
-The Swiggy Support Desk AI Knowledge Assistant employs a dual-tiered architecture comprising a **Grounded Cognitive Processing Core** and a **Deterministic Reliability & Audit Engine**. 
+The Siddarth Swiggy Support Desk AI Knowledge Assistant employs a dual-tiered architecture comprising a **Grounded Cognitive Processing Core** and a **Deterministic Reliability & Audit Engine**. 
 The Cognitive Processing Core ingests incoming customer inquiries, evaluates them against the immutable 12-clause synthetic SOP knowledge base (`SP1` to `SP12`), enforces rigid guardrails, and produces a structured, four-line response. 
 The Reliability & Audit Engine runs deterministic checks across the generated responses, computing token-level/word-level limits, clause alignment, hallucination frequency, escalation accuracy, and spreadsheet KPI metrics.
 

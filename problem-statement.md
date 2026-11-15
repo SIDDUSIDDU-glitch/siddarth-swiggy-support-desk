@@ -1,7 +1,7 @@
-# Swiggy Support Desk AI Knowledge Assistant — Project Specification
+# Siddarth Swiggy Support Desk AI Knowledge Assistant — Project Specification
 
 ## 1. Project Overview
-The Swiggy Support Desk AI Knowledge Assistant is a specialized, strictly grounded conversational AI solution designed for customer support operations. Operating in a synthetic pilot environment based on Swiggy's operational model, the assistant automates responses to repetitive customer inquiries regarding order cancellations, refund statuses, delivery delays, and account settings. The system operates strictly over a 12-clause synthetic Standard Operating Procedure (SOP) sheet (`SP1` to `SP12`), guaranteeing deterministic adherence, zero unsupported financial commitments, explicit uncertainty flagging, and mandatory escalation of high-risk incidents to human support agents.
+The Siddarth Swiggy Support Desk AI Knowledge Assistant is a specialized, strictly grounded conversational AI solution designed for customer support operations. Operating in a synthetic pilot environment based on the Siddarth Swiggy operational model, the assistant automates responses to repetitive customer inquiries regarding order cancellations, refund statuses, delivery delays, and account settings. The system operates strictly over a 12-clause synthetic Standard Operating Procedure (SOP) sheet (`SP1` to `SP12`), guaranteeing deterministic adherence, zero unsupported financial commitments, explicit uncertainty flagging, and mandatory escalation of high-risk incidents to human support agents.
 
 ## 2. Problem Statement
 Support operations teams at high-volume food delivery platforms handle thousands of tier-1 support queries daily. While standard policies already govern these interactions, human agents spend excessive time manually retyping repetitive answers, leading to cognitive fatigue and response latency. 

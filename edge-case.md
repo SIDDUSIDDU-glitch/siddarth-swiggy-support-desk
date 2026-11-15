@@ -1,6 +1,6 @@
-# Swiggy Support Desk AI Knowledge Assistant — Edge-Case and Risk Register
+# Siddarth Swiggy Support Desk AI Knowledge Assistant — Edge-Case and Risk Register
 
-This register identifies critical edge cases, boundary conditions, adversarial prompt scenarios, and compliance risks governing the AI Knowledge Assistant.
+This register identifies critical edge cases, boundary conditions, adversarial prompt scenarios, and compliance risks governing the Siddarth Swiggy AI Knowledge Assistant.
 
 | ID | Feature / Area | Scenario | Expected Behavior | Severity | Prevention / Recovery | Test Verification |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

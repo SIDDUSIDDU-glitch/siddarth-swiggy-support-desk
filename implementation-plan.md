@@ -1,7 +1,7 @@
-# Swiggy Support Desk AI Knowledge Assistant — Phased Implementation Plan
+# Siddarth Swiggy Support Desk AI Knowledge Assistant — Phased Implementation Plan
 
 ## Overview
-This implementation plan organizes the development, testing, tuning, and auditing of the Swiggy Support Desk AI Knowledge Assistant into five structured, dependency-ordered phases. Each phase delivers a vertical slice of verified functionality.
+This implementation plan organizes the development, testing, tuning, and auditing of the Siddarth Swiggy Support Desk AI Knowledge Assistant into five structured, dependency-ordered phases. Each phase delivers a vertical slice of verified functionality.
 
 ---
 

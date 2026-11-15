@@ -1,8 +1,8 @@
-# 🛡️ Swiggy Support Desk AI Knowledge Assistant
+# 🛡️ Siddarth Siddarth Siddarth Swiggy Support Desk AI Knowledge Assistant
 
 > **A Strictly Grounded AI Knowledge Assistant that Flags Uncertainty, Escalates High-Risk Incidents, and Self-Audits Reliability.**
 
-[![CI Pipeline](https://github.com/your-username/swiggy-support-desk-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/swiggy-support-desk-ai/actions)
+[![CI Pipeline](https://github.com/your-username/siddarth-swiggy-support-desk-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/siddarth-swiggy-support-desk-ai/actions)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![Benchmark Pass Rate](https://img.shields.io/badge/benchmark%20suite-20%2F20%20PASS%20(100%25)-emerald.svg)](#benchmark-test-suite)
 [![Escalation Recall](https://img.shields.io/badge/escalation%20recall%20(M4)-100.00%25-brightgreen.svg)](#reliability-scorecard)
@@ -31,7 +31,7 @@ This project delivers an **end-to-end, production-grade AI Knowledge Assistant**
 
 ## 🚀 Live Interactive Web App & Dashboard
 
-The application runs a clean, self-contained, high-performance web dashboard featuring Swiggy brand styling:
+The application runs a clean, self-contained, high-performance web dashboard featuring Siddarth Swiggy brand styling:
 
 | Tab | Feature Description |
 | :--- | :--- |
@@ -49,8 +49,8 @@ The core engine runs on standard Python 3.10+ without requiring external pip pac
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/swiggy-support-desk-ai.git
-cd swiggy-support-desk-ai
+git clone https://github.com/your-username/siddarth-swiggy-support-desk-ai.git
+cd siddarth-swiggy-support-desk-ai
 
 # 2. Run the application server
 python app.py

@@ -1,5 +1,5 @@
 """
-Swiggy Support Desk AI Knowledge Assistant — Application Server.
+Siddarth Swiggy Support Desk AI Knowledge Assistant — Application Server.
 Zero-dependency HTTP server powering the interactive web UI and REST API.
 """
 
@@ -116,10 +116,10 @@ def run(port=PORT):
     server_address = (HOST, port)
     try:
         httpd = HTTPServer(server_address, SupportDeskServer)
-        print("=" * 65)
-        print(f"🚀 Swiggy Support Desk AI Server Running on http://localhost:{port}")
+        print("=" * 70)
+        print(f"🚀 Siddarth Swiggy Support Desk AI Server Running on http://localhost:{port}")
         print("💡 Open your browser at http://localhost:8000 to interact with the UI")
-        print("=" * 65)
+        print("=" * 70)
         httpd.serve_forever()
     except OSError as e:
         if port < 8010:
