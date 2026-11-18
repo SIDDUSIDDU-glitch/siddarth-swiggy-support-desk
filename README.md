@@ -49,8 +49,8 @@ The core engine runs on standard Python 3.10+ without requiring external pip pac
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/siddarth-swiggy-support-desk-ai.git
-cd siddarth-swiggy-support-desk-ai
+git clone https://github.com/SIDDUSIDDU-glitch/siddarth-swiggy-support-desk.git
+cd siddarth-swiggy-support-desk
 
 # 2. Run the application server
 python app.py
